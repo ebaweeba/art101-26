@@ -1,0 +1,12 @@
+body {background-color: rgb(217, 218, 233);}
+h1 {color: darkslategray; font-family: 'helvetica', , monospace, Gadget, sans-serif; font-size: x-large;}
+
+p {color: black); font-family: 'helvetica', monospace; font-size: x-large;}
+ol {color: darkslategray; font-family: 'helvetica', monospace; font-size: large;}
+
+.main-section {
+    max-width: 900px;
+    margin: 0 auto 0 auto;
+    background: rgb(255, 255, 255);
+    padding: 30px;
+}

@@ -17,7 +17,7 @@ img {
 #page {
     max-width: 900px;
     margin: 0 auto 0 auto;
-    background: #e1f3f1;
+    background: rgb(222, 233, 236);
     padding: 30px;
 
 }
@@ -57,4 +57,23 @@ img {
 
 .profile p {
     font-size: 90%;
+}
+
+.navigation {
+    background: #d5d2eb;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.navigation h2 {
+    margin-top: 0;
+}
+
+.navigation li {
+    margin-bottom: 8px;
+}
+
+.navigation a {
+    color: #1d1184;
+    font-weight: bold;
 }
