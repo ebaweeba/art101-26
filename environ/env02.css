@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(192, 130, 72);
+    background-image: url("images/circus2.jpg");
+        background-size: cover;
+        background-position: right;
+    padding: 50px;
+}
+
+h1 {
+    background-color: rgb(188, 200, 218);
+    color: lightgoldenrodyellow;
+    font-family: snell roundhand, cursive;
+    font-size: xxx-large;
+    text-align: center;
+}
+
+#page {
+    max-width: 500px;
+    margin: 0 auto 0 auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px
+    ;
+}
+
+.poem {
+    color: lightgoldenrodyellow;
+    font-family: "helvetica", sans-serif;
+    font-size: medium;
+    line-height: 1;
+    text-align: center;
+}
+
+.main-section img {
+    background-color: rgb(188, 200, 218);
+    padding: 20px;
+    border-radius: 12px;
+    width: 200px;
+}
+
+.below-section img {
+    display: flex;
+    align-items: left;
+    margin: 0 auto 0 auto;
+    width: 300px;
+} 
