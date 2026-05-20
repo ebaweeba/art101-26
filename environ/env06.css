@@ -1,0 +1,165 @@
+body {
+    background-color: rgb(192, 130, 72);
+    background-image: url("images/circus2.jpg");
+    background-size: cover;
+    background-position: right;
+    padding: 50px;
+}
+
+h1 {
+    color: lightgoldenrodyellow;
+    font-family: snell roundhand, cursive;
+    font-size: xxx-large;
+    text-align: center;
+}
+
+#page {
+    max-width: 500px;
+    margin: 0 auto 0 auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.poem {
+    color: lightgoldenrodyellow;
+    font-family: "helvetica", sans-serif;
+    font-size: medium;
+    line-height: 1;
+    text-align: center;
+}
+
+.image-section img {
+    min-width: 200px;
+    min-height: 50px;
+    background-color: rgb(195, 168, 93);
+    padding: 10px;
+    border-radius: 500px;
+    width: 25px;
+}
+
+.below-section img {
+    display: flex;
+    align-items: left;
+    margin: 0 auto 0 auto;
+    width: 300px;
+}
+
+#glitter-output {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#background-button {
+    display: block;
+    margin: 0 auto;
+
+    background: linear-gradient(10deg, gold, lightpink);
+    border-radius: 30px;
+    border-color: transparent;
+
+    padding: 15px 30px;
+
+    font-family: Helvetica, sans-serif;
+    font-size: large;
+    cursor: pointer
+}
+
+#status {
+    display: block;
+    margin: 20px;
+    margin-bottom: auto;
+    background: rgb(183, 191, 219);
+    border-radius: 30px;
+    padding: 15px 30px;
+
+    font-family: "helvetica", Helvetica, sans-serif;
+    font-size: large;
+    text-align: center;
+}
+#instructions {
+    background-color: rgb(215, 220, 238);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    font-family: "helvetica", Helvetica, sans-serif;
+    font-size: large;
+    font-style: italic;
+    text-align: center;
+}
+
+
+#comfort-button {
+    display: block;
+    margin: 0 auto 50px auto;
+
+    background: rgb(221, 198, 136);
+    border-radius: 30px;
+    border-color: transparent;
+
+    padding: 15px 30px;
+
+    font-family: Helvetica, sans-serif;
+    font-size: large;
+    cursor: pointer
+}
+
+
+
+
+
+
+#scene {
+    width: 1000px;
+    height: 500px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    position: relative;
+      margin: 0 auto 0 auto;
+
+}
+
+#creature1 {
+    width: 120px;
+    height: 220px;
+
+    background-image: url("images/cat.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    border-radius: 30px;
+    outline: 2px dotted white;
+
+    cursor: pointer;
+    position: absolute;
+    left: 200px;
+    top: 150px;
+}
+
+
+#thought1 {
+    font-family: courier, monospace;
+    display: none;
+    position: absolute;
+    left: 80px;
+    top: -50px;
+    background: rgb(247, 245, 229);
+    border: transparent;
+    border-radius: 20px;
+    padding: 12px;
+    width: 180px;
+    z-index: 3;
+    pointer-events: none;
+}
+
+.transformed {
+    border-radius: 50%;
+    transform: scale(1.2) rotate(10deg);
+}
+
+.following {
+    box-shadow: 0 0 20px black;
+}
