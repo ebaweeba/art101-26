@@ -32,16 +32,16 @@ let glitterPhrases = [
     "you shine!",
     "you sparkle",
     "have some glitter!",
-    "you're a star"
-    "twinkle twinkle little star!"
-    "you're so bright!"
+    "you're a star",
+    "twinkle twinkle little star!",
+    "you're so bright!",
 ];
 
 $("#glitter-button").click(function () {
 
     glitterCount = glitterCount + 1;
 
-    let arrayPosition = glitterCount - 1;
+    let arrayPosition = (glitterCount - 1) % glitterPhrases.length;
 
 
     let currentPhrase = glitterPhrases[arrayPosition];
@@ -60,23 +60,17 @@ function changeBackgroundImage() {
 
     if (userChoice == "circus") {
         $("body").css("background-image", "url(images/circus.jpg)");
-        $("#output").html("welcome to the circus!");
     }
 
     else if (userChoice == "stage") {
-        $("body").css("background-image", "url('images/stage.jpg')");
-        $("#output").html("all the world is a stage");
+        $("body").css("background-image", "url('images/stagenew.jpg')");
     }
 
     else if (userChoice == "carnival") {
-        $("body").css("background-image", "url('images/lunaluna.png')");
-        $("#output").html("Carnival background selected!");
-    }
+        $("body").css("background-image", "url('images/lunaluna.png')");    }
 
      else if (userChoice == "original") {
-        $("body").css("background-image", "url('images/circus2.jpg')");
-        $("#output").html("back home!");
-    }
+        $("body").css("background-image", "url('images/circus2.jpg')");    }
 
     else {
         $("#output").html("Unknown background choice.");
