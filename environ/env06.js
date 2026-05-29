@@ -33,6 +33,8 @@ let glitterPhrases = [
     "you sparkle",
     "have some glitter!",
     "you're a star"
+    "twinkle twinkle little star!"
+    "you're so bright!"
 ];
 
 $("#glitter-button").click(function () {

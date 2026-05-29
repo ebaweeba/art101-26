@@ -106,7 +106,20 @@ h1 {
     cursor: pointer
 }
 
+#glitter-button {
+    display: block;
+    margin: 0 auto 50px auto;
 
+    background: rgb(221, 198, 136);
+    border-radius: 30px;
+    border-color: transparent;
+
+    padding: 15px 30px;
+
+    font-family: Helvetica, sans-serif;
+    font-size: large;
+    cursor: pointer
+}
 
 
 
