@@ -5,10 +5,14 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+p,
+li {
     color: darkslategray;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
 
 img {
     width: 200px;
